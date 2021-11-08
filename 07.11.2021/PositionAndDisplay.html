@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <title>PositionAndDisplay</title>
+    <style>
+        .a{
+            background-color: indigo;
+            width: 100%;
+            height: 100px;
+            position: fixed; /*Fixed sabit tutar.*/
+            top:0px;
+            left:0px;
+        }
+        .b{
+            background-color:lightblue;
+            width: 100px;
+            height: 100%; /*%100 yaparsan belirtildigi cercevede hepsini alir*/
+            position: absolute; /*Absolute harekete imkan verir.*/
+            right:0px;
+            
+        }
+        .c{
+            background-color:lightsalmon;
+            width: 100px;
+            height: 10000px; /*%100 yaparsan belirtildigi cercevede hepsini alir*/
+            position: absolute;
+            display: initial; /*Gorunur yapip yapmama icin kullanilir.*/
+            
+            
+        }
+        body{
+            background-color: indianred;
+            margin: 0px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        </body>
+</html>
